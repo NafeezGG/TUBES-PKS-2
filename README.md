@@ -1,14 +1,14 @@
 
-# Program Menghitung Peluang Terambilnya Huruf Vokal Dan Konsonan Dari N Kali Pengambilan
-Program ini akan menghitung peluang terambilnya huruf vokal dan konsonan dari n kali pengambilan huruf dari sebuah kata atau kalimat.
+# Program Pendaftaran Antrian Rumah Sakit
+Program ini bertujuan untuk mengatur sistem antrian dalam rumah sakit agar lebih terstruktur dan cepat dibandingkan dengan menggunakan metode tiket secara konvension
 
 ## Anggota kelompok 
-1. nama nim prodi tpb
-2. 
-3.
+1. Avyn Trikurnia Armadany_122430030_Teknik Biomedis_TPB 7
+2. Faiza Az Zahra_122430047_Teknik Biomedis_TPB 7
+3. Nafiz Ahmadin Harily_122430051_Teknik Biomedis_TPB 7
 
 ## Pengantar Komputer & Software 2
-- Nama Dosen:
+- Nama Dosen: Asep Nurul Ajiid Mustofa, S.T., M.T.
 - nama asisten praktikum 1:
 - nama asistem praktikum 2:
 
