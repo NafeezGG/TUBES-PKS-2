@@ -32,7 +32,7 @@ Program ini bertujuan untuk mengatur sistem antrian dalam rumah sakit agar lebih
 
 | File |      link     |
 | ------ | ------ |
-| Laporan | tempel link disini |
+| Laporan | https://drive.google.com/file/d/128KvflmcWm34sxGLwip1qXWKz7j6hblx/view?usp=drivesdk |
 | Program | https://github.com/NafeezGG/TUBES-PKS-2 |
 | Program running | https://replit.com/@NafizAhmadin/TUBES-PKS-2 |
 | Video | https://youtu.be/c7I1l7-5qK0 |
