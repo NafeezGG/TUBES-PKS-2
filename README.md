@@ -9,26 +9,24 @@ Program ini bertujuan untuk mengatur sistem antrian dalam rumah sakit agar lebih
 
 ## Pengantar Komputer & Software 2
 - Nama Dosen: Asep Nurul Ajiid Mustofa, S.T., M.T.
-- nama asisten praktikum 1:
-- nama asistem praktikum 2:
+- nama asisten praktikum 1: Marchel Timoteus
+- nama asistem praktikum 2: David Panondang Sinaga
 
 ## Cara Kerja Program
-1.	Program akan meminta masukan sebuah kata atau kalimat dari pengguna.
-2.	Program akan menghitung jumlah huruf vokal dan konsonan pada kata atau kalimat yang dimasukkan.
-3.	Program menanyakan apakah user ingin menghitung peluangnya dan memillih jenis peluang ( vocal/konsonan) serta berapa kali pengambilan yang diinginkan
-4.	 program akan menghitung peluang terambilnya huruf vokal atau konsonan dari n kali pengambilan huruf.
-5.	Program akan menampilkan hasil perhitungan peluang terambilnya huruf vokal atau  konsonan yang anda pilih 
-6.	Program kemudian menanyakan lagi apakah ingin menghitung peluang lagi jika ya akan Kembali ke menu memilih jenis peluang dan berapa kali pengambilan. 
-7.	Pada bagian terakhir program akan menanyakan apakah program ingin di ulang Kembali atau tidak jika user menjawab ya maka program akan diulang Kembali seperti awal jika tidak maka program akan berhenti dan menampilkan pesan 
+1.	Program akan meminta untuk memasukkan nama pasien.
+2.	Program akan menampilkan kode pelayanan dan diminta untuk memasukkan kode sesuai pelayanan yang di tuju
+3.	Program akan mengulang hingga 5 data tersimpan 
+4.	program akan menampilkan Pemanggilan Data Pasien yang telah mendaftar Sesuai urutan dari antrian yang telah di buat
+5.	Program akan menampilkan pelayanan tidak valid jika salah dalam memasukkan kode pelayanan
 
 ## Cara Menggunakan Program 
 1.	Pastikan terdapat compiler c++yang telah terinstall di komputer Anda.
 2.	Download atau clone repository ini.
 3.	Buka aplikasi compiler anda atau anda bisa jalankan di compiler online 
 4.	Jalankan program dengan menekan tombol run
-5.	Masukkan kata atau kalimat yang ingin Anda hitung peluangnya.
-6.	Masukkan jumlah pengambilan huruf yang diinginkan.
-7.	Program akan menampilkan hasil perhitungan peluang terambilnya huruf vokal dan konsonan.
+5.	Masukkan nama Anda Agar di daftarkan.
+6.	Masukkan Kode Pelayanan yang tertera.
+7.	Program akan melakukan Pemanggilan data sesuai nomor urut Antrian.
 
 ## Media
 
