@@ -1,0 +1,67 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int i, j, p[5];
+    string nama[5];
+    
+    for(i=0; i<5; i++){
+        cout<<"========================================================================================"<<endl;
+        cout<<"                                     Antrian Rumah Sakit                                "<<endl;
+        cout<<"========================================================================================"<<endl;
+        cout<<endl;
+        cout<<"                                         ENTRY DATA                                     "<<endl;
+        cout<<endl;
+        cout<<"Nama Pasien : ";
+        cin>>nama[i];
+        cout<<"____________________________"<<endl;
+        cout<<"       KODE PELAYANAN       "<<endl;
+        cout<<"____________________________"<<endl;
+        cout<<"1. Dokter Umum"<<endl;
+        cout<<"2. Dokter THT"<<endl;
+        cout<<"3. Dokter Kandungan"<<endl;
+        cout<<"4. Dokter Anak"<<endl;
+        cout<<"5. Dokter Saraf"<<endl;
+        cout<<"6. Dokter Mata"<<endl;
+        cout<<"____________________________"<<endl;
+        cout<<"Masukkan Kode yang tertera di atas [1/2/3/4/5/6] : ";
+        cin>>p[i];
+        cout<<endl;
+        cout<<"Baik Saudara/i "<<nama[i]<<" data anda telah tercatat"<<endl;
+        cout<<"Nomor antrian adalah => "<<i+1<<endl;
+        cout<<"Silahkan menunggu hingga nomor antrian anda di panggil"<<endl;
+        cout<<"Terimakasih"<<endl;
+        cout<<endl;
+        cout<<"Klik pada sembarang tempat untuk menyelesaikan pendataan anda"<<endl;
+        system("pause");
+        system("cls");
+    }
+    
+    for(j=0; j<5; j++){
+        cout<<"============================================================================================"<<endl;
+        cout<<"                                    Pemanggilan Data                                        "<<endl;
+        cout<<"============================================================================================"<<endl;
+        cout<<endl;
+        cout<<"Pasien dengan antrian nomor "<<j+1<<" atas nama "<<nama[j]<<endl;
+        cout<<"Silahkan menemui ";
+        if(p[j]==1){
+            cout<<"Dokter Umum"<<endl;
+        }else if(p[j]==2){
+            cout<<"Dokter tht"<<endl;
+        }else if(p[j]==3){
+            cout<<"Dokter Kandungan"<<endl;
+        }else if(p[j]==4){
+            cout<<"Dokter Anak"<<endl;
+        }else if(p[j]==5){
+            cout<<"Dokter Saraf"<<endl;
+        }else if(p[j]==6){
+            cout<<"Dokter mata"<<endl;
+        }
+         else{
+             cout<<"[Pelayanan Tidak Valid]"<<endl;
+         }
+            system("pause");
+            system("cls");
+    }
+    return 0;
+}
